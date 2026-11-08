@@ -11,5 +11,5 @@ model = RandomForestClassifier()
 model.fit(X, y)
 
 # 2. Save the model to disk
-joblib.dump(model, 'model.joblib')
+joblib.dump(model, 'models/model.joblib')
 print("model saved.")
